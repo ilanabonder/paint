@@ -89,7 +89,7 @@ function createCanvas(newCanvasSize) {
     var ismousedown = false; //loop that assigns that while the user is mousedow the mouseover function will be activated
 
     for (var i = 0; i < newCanvasSize; i++) {
-        var column = document.createElement("div");
+        var column = document.createElement("div")
         column.className = "columns";
         canvas.appendChild(column);
 
