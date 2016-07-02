@@ -24,7 +24,7 @@ document.getElementById(3).id = "green";
 document.getElementById(4).id = "blue";
 document.getElementById(5).id = "white";
 
-//creating new canvas button
+//creating new canvas btn
 var btn = document.createElement("button");
 btn.className = "btnmenu";
 btn.textContent = "NEW WHITE CANVAS";
